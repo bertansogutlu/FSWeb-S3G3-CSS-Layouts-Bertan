@@ -66,10 +66,14 @@ header h2 {
 .baslik {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0.5%;
     border-bottom: 2px solid #34568B;
     height: 30%;
-    gap: 30%;
+}
+
+.baslik-eleman {
+    flex: 1;
 }
 
 .baslik-eleman button {
